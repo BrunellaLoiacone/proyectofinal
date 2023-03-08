@@ -1,0 +1,366 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "King Basil", Georgia, "Times New Roman", Times, serif;
+}
+
+.Portada {
+  align-items: flex-end;
+  background-image: url("./Imagenes/Portada.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 32rem;
+  justify-content: center;
+  width: auto;
+}
+
+.text {
+  align-items: center;
+  color: #d4af37;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  margin: 50px;
+}
+
+h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+
+.date-text {
+  align-items: center;
+  color: beige;
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+.counter-section {
+  align-items: center;
+  background-color: antiquewhite;
+  border: solid;
+  border-color: #d4af37;
+  border-left: none;
+  border-right: none;
+  border-width: 3px;
+  color: #d4af37;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-style: italic;
+  height: 150px;
+  justify-content: center;
+}
+
+.counter {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  text-align: center;
+}
+
+.sms-final {
+  bottom: 100px;
+  color: #d4af37;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+.titles {
+  align-items: center;
+  color: #d4af37;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+.imag-title {
+  height: 75px;
+  padding-bottom: 5px;
+}
+
+.icono-titles {
+  color: #d4af37;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  line-height: 20px;
+  margin: 30px 15px 20px;
+  padding-bottom: 20px;
+}
+
+.title-section {
+  color: #d4af37;
+  font-size: 20px;
+  margin: 12px;
+}
+
+.middel-info {
+  align-items: center;
+  color: #6d5505;
+  display: flex;
+  flex-direction: column;
+  margin: -25px 15px 0;
+  text-align: center;
+}
+
+.button {
+  background-color: antiquewhite;
+  border-color: antiquewhite;
+  border-radius: 30px;
+  color: #d4af37;
+  cursor: pointer;
+  font-size: 15px;
+  height: 50px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s ease all;
+  width: 40%;
+}
+
+.sup-info {
+  align-items: center;
+  color: #d4af37;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding-top: 35px;
+}
+
+.button2 {
+  background-color: #d4af37;
+  border-color: antiquewhite;
+  border-radius: 30px;
+  color: antiquewhite;
+  cursor: pointer;
+  font-size: 15px;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s ease all;
+  width: 40%;
+}
+
+.button3 {
+  background-color: #d4af37;
+  border-color: antiquewhite;
+  border-radius: 30px;
+  color: antiquewhite;
+  cursor: pointer;
+  font-size: 15px;
+  height: 40px;
+  margin-top: 5px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.3s ease all;
+  width: 50%;
+}
+
+.present {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 300px;
+}
+
+.confirmation,
+.music {
+  align-items: center;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 300px;
+}
+
+.icono-titles-photos {
+  color: #d4af37;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.middel-info-photos {
+  align-items: center;
+  color: #6d5505;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 15px 0;
+  text-align: center;
+}
+
+.bruneydiego {
+  color: #e8b406;
+  font-size: 35px;
+  padding-top: 20px;
+}
+
+.overlay {
+  align-items: center;
+  background-color: rgba(250, 235, 215, 0.936);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  visibility: hidden;
+}
+
+.overlay.active {
+  visibility: visible;
+}
+
+.popup {
+  background-color: white;
+  border-radius: 10px;
+  height: 250px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.popup .icono {
+  color: #d4af37;
+  display: block;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: right;
+  transition: 0.3s ease all;
+}
+
+.popup .icono:hover {
+  color: #6d5505;
+  transition: 0.3s ease all;
+}
+
+.cbu-title {
+  color: #d4af37;
+  padding: 10px;
+  margin-top: -4px;
+}
+
+li {
+  color: #6d5505;
+  padding: 5px;
+}
+
+.footer {
+  background-color: antiquewhite;
+  color: #6d5505;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+@media (min-width: 760px) {
+  .button2,
+  .button {
+    width: 25%;
+  }
+
+  .button3 {
+    width: 30%;
+  }
+
+  .date-text {
+    font-size: 30px;
+  }
+  .counter,
+  h4 {
+    font-size: 25px;
+  }
+
+  p {
+    margin: 0 15px 0 15px;
+  }
+
+  .footer {
+    text-align: center;
+    height: 60px;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .Portada {
+    height: 640px;
+  }
+
+  h1 {
+    font-size: 80px;
+  }
+
+  .date-text {
+    font-size: 40px;
+  }
+
+  .counter,
+  h4 {
+    font-size: 30px;
+  }
+
+  .ceremony {
+    font-size: 20px;
+  }
+
+  .icono-titles {
+    font-size: 39px;
+    padding: 5px;
+  }
+
+  .icono-titles-photos {
+    font-size: 35px;
+    padding: 5px;
+  }
+  .imag-title {
+    height: 100px;
+  }
+
+  .confirmation,
+  .present,
+  .music,
+  .photos {
+    height: 350px;
+  }
+
+  .title-section {
+    font-size: 28px;
+  }
+
+  .footer {
+    text-align: center;
+    height: 100px;
+    padding: 50px;
+    font-size: 20px;
+  }
+  .button2,
+  .button {
+    width: 20%;
+    text-align: center;
+  }
+  .button3 {
+    width: 25%;
+  }
+}

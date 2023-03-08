@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Nos Casamos!</title>
+    <link rel="stylesheet" href="./Style.css">
+    
+</head>
+<body>
+    <!--Portada-->
+    <section>
+        <div class="Portada">
+            <div class="text">
+                    <h1><b> Brune & Diego</b></h1>
+                <div class="date-text">
+                    <p><b>¡Nos Casamos!</b></p>
+                    <p><b> 04.11.2023</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contador-->
+    <section class="counter-section">
+        <div>    
+            <h4 class="missing">Faltan...</h4>
+        </div>
+        <br>
+            <div class="counter">
+                <div class=" counter-text">
+                    <p id="days">00</p>
+                    <span>Dias</span>
+                </div>
+
+                <div>
+                    <p id="hours">00</p>
+                    <span>Horas</span>
+                </div>
+
+                <div>
+                    <p id="minutes">00</p>
+                    <span>Minutos</span>
+                </div>
+
+                <div>
+                    <p id="seconds">00</p>
+                    <span>Segundos</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="sms-final">
+            <h2>¡Hoy nos casamos! 🎉</h2>
+        </div>
+    </section>
+
+
+<!--Ceremonia-->
+    <section class="ceremony">
+        <div class="titles">
+            <img src="./Imagenes/Ceremonia.jpg" alt="Ceremonia" class="imag-title">
+            <h2 class="icono-titles" id="Ceremonia"> Ceremonias & Fiesta</h2>
+        </div>
+
+        <div class="card-section">
+<!--Civil-->
+            <article class="card"> 
+                <h3 class="title-section"> Registro Civil </h3>
+                <p class="middel-info">La ceremonia Civil será el 3 de Noviembre a las 14:00 horas en Av. Chacabuco 737, Córdoba.</p>
+                <a href="https://goo.gl/maps/9CKey5U5FN6NnzRL9" target="_blank" class="button"> Cómo llegar </a>
+            </article>
+
+<!--Iglesia-->
+            <article class="card"> 
+                <h3 class="title-section"> Iglesia Nuestra Señora del Carmen </h3>
+                <p class="general-middel-info middel-info">La ceremonia Religiosa será el 4 de Noviembre a las 20:00 horas en Av. Del Carmen 200, Villa Allende.</p>
+                <a href="https://goo.gl/maps/f6WomAEfvC7zPXfPA" target="_blank" class="button"> Cómo llegar </a>
+            </article>
+
+<!--Fiesta-->
+            <article class="card"> 
+                <h3 class="title-section"> Salón 1915 </h3>
+                <p class="general-middel-info middel-info">La Fiesta  será el 4 de Noviembre a las 21:30 horas en AProgreso 59, Villa Allende.</p>
+                <a href="https://goo.gl/maps/ZS1gZeBvhHoXQoPr6" target="_blank" class="button"> Cómo llegar </a>
+            </article>
+        </div>
+    </section>
+
+<!--Asistencia-->
+    <section class="confirmation" id="confirmation">
+        <div class="sup-info">
+            <img src="./Imagenes/Confirmación.png" alt="Asistencia" class="imag-title">
+            <h2 class="icono-titles"> Asistencia</h2>
+        </div>
+        <div class="middel-info">
+            <p >Esperamos que seas parte de nuestra gran Celebración.¡Confirmanos tu asistencia!</p>
+        </div>
+        <a href="https://forms.gle/NJhqGjHWRk7QWyeC6"  class="button3" target="_blank">Confirmar Asistencia</a>
+    </section>
+
+<!--Regalo-->
+<section class="present" id="gift">
+    <div class="sup-info">
+        <img src="./Imagenes/Regalo.png" alt="Regalo" class="imag-title">
+        <h2 class="icono-titles"> Regalo</h2>
+    </div>
+    <div class="middel-info">
+        <p>Nuestro mejor regalo es tu presencia en este día tan especial, pero si deseas colaborar con nuestra <b><i>Luna de Miel</i></b> puedes hacerlo por aquí.</p>
+    </div>
+    <a class="button2" id="button-gift">Colaborar</a>
+</section>
+
+<!--Música-->
+    <section class="music">
+        <div class="sup-info">
+            <img src="./Imagenes/Música.png" alt="Música" class="imag-title">
+            <h2 class="icono-titles">Música</h2>
+        </div>
+        <div class="middel-info">
+            <p>¿Cuál es la canción que no debe faltar en la PlayList de la fiesta?</p>
+        </div>
+        <a href="https://forms.gle/DEyYqe2BkEutbufk6" target="_blank" class="button3">Sugerir Canción</a>
+    </section>
+
+<!--Fotos-->
+    <section class="photos">
+        <div class="sup-info"> 
+            <img src="./Imagenes/Instagram.png" alt="Fotos" class="imag-title">
+            <h2 class="icono-titles-photos"> Compartimos este día junto a vos</h2>
+        </div>
+        <div class="middel-info-photos">
+            <p>Compartí tus fotos y videos de este hermoso día</p>
+            <p class="bruneydiego">#bruneydiego</p>
+        </div>
+    </section>
+
+    <section class="overlay" id="overlay">
+        <div class="popup" id="popup">
+            <a href="#Regalo" class="icono" id="icono"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                </svg>
+            </a>
+            <h2 class="cbu-title">Datos Bancarios</h2>
+            <ul type="none">
+                <li>Nombre: Diego G.</li>
+                <li>CBU: 0284028404058494</li>
+                <li>Alias:Diegoybrune</li>
+                <li>DNI:36475840</li>
+                <li>Banco Galicia</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <p>¡Gracias por acompañarnos en este momento tan importante!</p>
+    </section>
+    
+<script src="./script.js"></script>
+</body>
